@@ -1,235 +1,1082 @@
 {
-  "mise_a_jour_utc": "2026-10-29T21:08:00+00:00",
+  "version": "3.0",
+  "mise_a_jour_utc": "2026-10-29T21:44:11+00:00",
   "pays": [
     "Algérie",
     "Maroc",
     "Tunisie"
   ],
-  "flux_source_uniques": 42,
-  "flux_http_accessibles_ce_controle": 23,
+  "sources_consultees": 18,
+  "sources_reussies": 18,
+  "flux_source_uniques": 170,
+  "flux_http_accessibles_ce_controle": 41,
   "flux_conserves_grace_24h": 0,
-  "flux_publies_filtres": 23,
+  "chaines_principales": 23,
+  "liens_alternatifs_valides": 18,
   "par_pays_total": {
-    "Algérie": 10,
-    "Maroc": 24,
-    "Tunisie": 8
+    "Algérie": 51,
+    "Maroc": 96,
+    "Tunisie": 23
   },
-  "par_pays_filtres": {
-    "Algérie": 3,
-    "Maroc": 14,
-    "Tunisie": 6
+  "par_pays_principal": {
+    "Algérie": 5,
+    "Maroc": 10,
+    "Tunisie": 8
   },
   "sources": [
     {
-      "source": "IPTV-org public",
+      "source": "IPTV-org pays",
       "pays": "dz",
-      "lignes": 7,
+      "retenus": 7,
       "statut": "OK"
     },
     {
-      "source": "IPTV-org public",
+      "source": "IPTV-org pays",
       "pays": "ma",
-      "lignes": 10,
+      "retenus": 10,
       "statut": "OK"
     },
     {
-      "source": "IPTV-org public",
+      "source": "IPTV-org pays",
       "pays": "tn",
-      "lignes": 3,
+      "retenus": 3,
       "statut": "OK"
     },
     {
-      "source": "IPTV-org brut (alternatives)",
+      "source": "IPTV-org flux bruts",
       "pays": "dz",
-      "lignes": 8,
+      "retenus": 8,
       "statut": "OK"
     },
     {
-      "source": "IPTV-org brut (alternatives)",
+      "source": "IPTV-org flux bruts",
       "pays": "ma",
-      "lignes": 14,
+      "retenus": 14,
       "statut": "OK"
     },
     {
-      "source": "IPTV-org brut (alternatives)",
+      "source": "IPTV-org flux bruts",
       "pays": "tn",
-      "lignes": 6,
+      "retenus": 6,
       "statut": "OK"
     },
     {
       "source": "IPTV Nexus",
       "pays": "dz",
-      "lignes": 7,
+      "retenus": 7,
       "statut": "OK"
     },
     {
       "source": "IPTV Nexus",
       "pays": "ma",
-      "lignes": 9,
+      "retenus": 9,
       "statut": "OK"
     },
     {
       "source": "IPTV Nexus",
       "pays": "tn",
-      "lignes": 4,
+      "retenus": 4,
+      "statut": "OK"
+    },
+    {
+      "source": "IPTV-org arabe",
+      "pays": "mixte",
+      "retenus": 19,
+      "statut": "OK"
+    },
+    {
+      "source": "IPTV-org région Maghreb",
+      "pays": "mixte",
+      "retenus": 21,
+      "statut": "OK"
+    },
+    {
+      "source": "Ahmad Arabic Channels",
+      "pays": "mixte",
+      "retenus": 44,
+      "statut": "OK"
+    },
+    {
+      "source": "Sorted IPTV Arabic",
+      "pays": "mixte",
+      "retenus": 33,
+      "statut": "OK"
+    },
+    {
+      "source": "Arab IPTV archive",
+      "pays": "mixte",
+      "retenus": 97,
+      "statut": "OK"
+    },
+    {
+      "source": "Free-TV IPTV",
+      "pays": "mixte",
+      "retenus": 0,
       "statut": "OK"
     },
     {
       "source": "Gist Arabic Free",
-      "pays": "3 pays",
-      "lignes": 7,
+      "pays": "mixte",
+      "retenus": 7,
       "statut": "OK"
     },
     {
       "source": "Gist Morocco",
-      "pays": "3 pays",
-      "lignes": 7,
+      "pays": "mixte",
+      "retenus": 7,
       "statut": "OK"
     },
     {
       "source": "Doubo",
-      "pays": "3 pays",
-      "lignes": 4,
+      "pays": "mixte",
+      "retenus": 4,
       "statut": "OK"
     }
   ],
-  "avertissement": "Contrôle HTTP sur GitHub, pas de garantie de visionnage depuis la France.",
+  "avertissement": "Contrôle sur GitHub uniquement. Ni lecture vidéo ni droits de rediffusion garantis.",
   "last_ok": {
-    "https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_240p/chunks.m3u8": "2026-10-29T21:08:00+00:00",
-    "http://mkstream.servehttp.com:1940/AmouYazid/ay1/playlist.m3u8": "2026-10-29T21:08:00+00:00",
-    "http://185.9.2.18/chid_347/index.m3u8": "2026-10-29T21:08:00+00:00",
-    "http://185.9.2.18/chid_218/index.m3u8": "2026-10-29T21:08:00+00:00",
-    "https://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8": "2026-10-29T21:08:00+00:00",
-    "https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8": "2026-10-29T21:08:00+00:00",
-    "http://185.9.2.18/chid_205/index.m3u8": "2026-10-29T21:08:00+00:00",
-    "http://149.100.11.252:8000/play/a065/index.m3u8": "2026-10-29T21:08:00+00:00",
-    "https://edge13.vedge.infomaniak.com/livecast/ik:chadatv/manifest.m3u8": "2026-10-29T21:08:00+00:00",
-    "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-afrique_tm7tu45/playlist.m3u8": "2026-10-29T21:08:00+00:00",
-    "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist.m3u8": "2026-10-29T21:08:00+00:00",
-    "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist.m3u8": "2026-10-29T21:08:00+00:00",
-    "https://136044159.r.cdnsun.net/storychannel.m3u8": "2026-10-29T21:08:00+00:00",
-    "https://sw1.tanitweb.net/TunisiaTV/_definst_/watania1/chunklist.m3u8": "2026-10-29T21:08:00+00:00",
-    "https://sw1.tanitweb.net/TunisiaTV/_definst_/watania2/playlist.m3u8?DVR": "2026-10-29T21:08:00+00:00",
-    "https://webcam.mosaiquefm.net/mosatv/_definst_/studio/playlist.m3u8?DVR": "2026-10-29T21:08:00+00:00",
-    "https://edge19.vedge.infomaniak.com/livecast/ik:chadatv/playlist.m3u8": "2026-10-29T21:08:00+00:00",
-    "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-afrique_tm7tu45/playlist_dvr.m3u8": "2026-10-29T21:08:00+00:00",
-    "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist_dvr.m3u8": "2026-10-29T21:08:00+00:00",
-    "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist_dvr.m3u8": "2026-10-29T21:08:00+00:00",
-    "https://sw1.tanitweb.net/TunisiaTV/_definst_/watania1/playlist.m3u8?DVR": "2026-10-29T21:08:00+00:00",
-    "https://sw1.tanitweb.net/TunisiaTV/_definst_/watania2/chunklist.m3u8": "2026-10-29T21:08:00+00:00",
-    "https://tv.elyssatv.com/live/master.m3u8": "2026-10-29T21:08:00+00:00"
+    "https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_240p/chunks.m3u8": "2026-10-29T21:44:11+00:00",
+    "http://mkstream.servehttp.com:1940/AmouYazid/ay1/playlist.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://live.creacast.com/cna/stream/playlist.m3u8": "2026-10-29T21:44:11+00:00",
+    "http://185.9.2.18/chid_347/index.m3u8": "2026-10-29T21:44:11+00:00",
+    "http://185.9.2.18/chid_218/index.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8": "2026-10-29T21:44:11+00:00",
+    "http://185.9.2.18/chid_205/index.m3u8": "2026-10-29T21:44:11+00:00",
+    "http://149.100.11.252:8000/play/a065/index.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://edge13.vedge.infomaniak.com/livecast/ik:chadatv/manifest.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-afrique_tm7tu45/playlist.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://136044159.r.cdnsun.net/storychannel.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://sw1.tanitweb.net/TunisiaTV/_definst_/watania1/chunklist.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://sw1.tanitweb.net/TunisiaTV/_definst_/watania2/playlist.m3u8?DVR": "2026-10-29T21:44:11+00:00",
+    "https://webcam.mosaiquefm.net/mosatv/_definst_/studio/playlist.m3u8?DVR": "2026-10-29T21:44:11+00:00",
+    "https://live.creacast.com/cna/smil:cna.smil/playlist.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://edge19.vedge.infomaniak.com/livecast/ik:chadatv/playlist.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-afrique_tm7tu45/playlist_dvr.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist_dvr.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist_dvr.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://sw1.tanitweb.net/TunisiaTV/_definst_/watania1/playlist.m3u8?DVR": "2026-10-29T21:44:11+00:00",
+    "https://sw1.tanitweb.net/TunisiaTV/_definst_/watania2/chunklist.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://tv.elyssatv.com/live/master.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/playlist.m3u8": "2026-10-29T21:44:11+00:00",
+    "http://mkstream.servehttp.com:1940/AmouYazid/ay1/chunklist.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://github.com/MassinDV/Youtube-arabic-channels/raw/main/live/ch35.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://streaming.toutech.net/live/jtv/index.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://github.com/MassinDV/Youtube-arabic-channels/raw/main/live/ch17.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://stream-lb.livemediama.com/2m/hls/master.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://stream-lb.livemediama.com/alaoula-tnt/hls/master.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://stream-lb.livemediama.com/alaoula/hls/master.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://stream-lb.livemediama.com/arryadia-tnt/hls/master.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://stream-lb.livemediama.com/arryadia/hls/master.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://stream-lb.livemediama.com/arryadia-hd-01/hls/master.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://stream-lb.livemediama.com/arryadia-hd-02/hls/master.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://stream-lb.livemediama.com/arryadia-hd-03/hls/master.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://video1.getstreamhosting.com:1936/8320/8320/playlist.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_1080p/chunks.m3u8": "2026-10-29T21:44:11+00:00",
+    "https://github.com/MassinDV/Youtube-arabic-channels/raw/main/live/ch96.m3u8": "2026-10-29T21:44:11+00:00"
   },
   "echecs": [
     {
-      "chaine": "CNA (Algeria) (360p) [Not 24/7]",
-      "source": "IPTV-org public",
-      "url": "https://live.creacast.com/cna/stream/playlist.m3u8",
-      "raison": "HTTP 403"
-    },
-    {
       "chaine": "El-Heddaf TV (1080p)",
-      "source": "IPTV-org public",
+      "pays": "Algérie",
+      "source": "IPTV-org pays",
       "url": "https://live.elheddaftv.com:8081/elheddaftv/index.m3u8",
       "raison": "HTTP 404"
     },
     {
       "chaine": "Elwatania TV (1080i)",
-      "source": "IPTV-org public",
+      "pays": "Algérie",
+      "source": "IPTV-org pays",
       "url": "https://livesstream.work.gd:5443/WebRTCApp/streams/stream.m3u8",
-      "raison": "<urlopen error timed out>"
+      "raison": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'livesstream.work.gd'. (_ssl.c:1010)>"
     },
     {
       "chaine": "TV4 (Algeria) (720p)",
-      "source": "IPTV-org public",
+      "pays": "Algérie",
+      "source": "IPTV-org pays",
       "url": "http://91.228.35.249:8001/1:0:1:06A6:3138:13E:820000:0:0:0",
       "raison": "<urlopen error timed out>"
     },
     {
-      "chaine": "CNA (Chaîne Nord Africaine) (360p) [Not 24/7]",
-      "source": "IPTV-org brut (alternatives)",
-      "url": "https://live.creacast.com/cna/smil:cna.smil/playlist.m3u8",
+      "chaine": "EPTV 1 الأولى",
+      "pays": "Algérie",
+      "source": "Ahmad Arabic Channels",
+      "url": "http://149.62.177.98:8000/play/a00i",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "Canal Algérie الثانية",
+      "pays": "Algérie",
+      "source": "Ahmad Arabic Channels",
+      "url": "http://149.100.19.147:8000/play/a04i",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "A3 News الإخبارية",
+      "pays": "Algérie",
+      "source": "Ahmad Arabic Channels",
+      "url": "http://149.100.19.147:8000/play/a04p",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "EPTV 4 Tamazighth الأمازيغية",
+      "pays": "Algérie",
+      "source": "Ahmad Arabic Channels",
+      "url": "http://149.100.19.147:8000/play/a04j",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "EPTV 5 Quran القرآن الكريم",
+      "pays": "Algérie",
+      "source": "Ahmad Arabic Channels",
+      "url": "http://149.100.19.147:8000/play/a04k",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "EPTV YOUTH الشّبابية",
+      "pays": "Algérie",
+      "source": "Ahmad Arabic Channels",
+      "url": "http://149.100.19.147:8000/play/a04l",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "EPTV 7 El Maarifa المعرفة",
+      "pays": "Algérie",
+      "source": "Ahmad Arabic Channels",
+      "url": "http://149.100.19.147:8000/play/a04m",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "EPTV 8 Edhakira الذّاكرة",
+      "pays": "Algérie",
+      "source": "Ahmad Arabic Channels",
+      "url": "http://149.100.19.147:8000/play/a04n",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "EPTV 9 El Barlamaniya البرلمانية",
+      "pays": "Algérie",
+      "source": "Ahmad Arabic Channels",
+      "url": "http://149.100.19.147:8000/play/a04o",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "Echorouk  الشروق",
+      "pays": "Algérie",
+      "source": "Ahmad Arabic Channels",
+      "url": "http://149.100.19.147:8000/play/a02g",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "ONE TV",
+      "pays": "Algérie",
+      "source": "Ahmad Arabic Channels",
+      "url": "http://149.100.19.147:8000/play/a02h",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "El Bilad البلاد",
+      "pays": "Algérie",
+      "source": "Ahmad Arabic Channels",
+      "url": "http://149.100.19.147:8000/play/a02p",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "El Hayat الحياة",
+      "pays": "Algérie",
+      "source": "Ahmad Arabic Channels",
+      "url": "http://149.100.19.147:8000/play/a02k",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "EL WATANIA TV الوطنيّة",
+      "pays": "Algérie",
+      "source": "Ahmad Arabic Channels",
+      "url": "http://149.100.19.147:8000/play/a02j",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "Echorouk News الشروق الإخبارية",
+      "pays": "Algérie",
+      "source": "Ahmad Arabic Channels",
+      "url": "http://149.100.19.147:8000/play/a02f",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "Ennahar News النهار",
+      "pays": "Algérie",
+      "source": "Ahmad Arabic Channels",
+      "url": "http://149.100.19.147:8000/play/a02r",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "Bahia TV Oran الباهية",
+      "pays": "Algérie",
+      "source": "Ahmad Arabic Channels",
+      "url": "http://149.100.19.147:8000/play/a02i",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "essalam السّلام",
+      "pays": "Algérie",
+      "source": "Ahmad Arabic Channels",
+      "url": "http://149.100.19.147:8000/play/a02m",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "HTV الهدّاف",
+      "pays": "Algérie",
+      "source": "Ahmad Arabic Channels",
+      "url": "https://live.eighty-eight.tv:7770/elheddaf1/tracks-v1a1/mono.ts.m3u8",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "Samira TV سميرة",
+      "pays": "Algérie",
+      "source": "Ahmad Arabic Channels",
+      "url": "http://149.100.19.147:8000/play/a02q",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "Zahra TV زهرة",
+      "pays": "Algérie",
+      "source": "Ahmad Arabic Channels",
+      "url": "http://149.100.19.147:8000/play/a02s",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "4 KIDS DZ",
+      "pays": "Algérie",
+      "source": "Ahmad Arabic Channels",
+      "url": "http://149.100.19.147:8000/play/a02t",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "Al Oula الأولى",
+      "pays": "Maroc",
+      "source": "Ahmad Arabic Channels",
+      "url": "https://cdn.live.easybroadcast.io/ts_corp/73_aloula_w1dqfwm/playlist_dvr.m3u8",
+      "raison": "HTTP 404"
+    },
+    {
+      "chaine": "Al Oula Laayoune الأولى العيون",
+      "pays": "Maroc",
+      "source": "Ahmad Arabic Channels",
+      "url": "https://cdn.live.easybroadcast.io/abr_corp/73_laayoune_pgagr52/corp/73_laayoune_pgagr52_480p/chunks_dvr.m3u8",
       "raison": "HTTP 403"
     },
     {
-      "chaine": "Al Aoula",
-      "source": "Gist Arabic Free",
+      "chaine": "Arriadia الرياضية",
+      "pays": "Maroc",
+      "source": "Ahmad Arabic Channels",
+      "url": "https://cdn.live.easybroadcast.io/ts_corp/73_arryadia_k2tgcj0/playlist_dvr.m3u8",
+      "raison": "HTTP 404"
+    },
+    {
+      "chaine": "Arriadia الرياضية tnt",
+      "pays": "Maroc",
+      "source": "Ahmad Arabic Channels",
+      "url": "https://cdn.live.easybroadcast.io/ts_corp/73_arryadia-tnt_zcmwjdc/playlist_dvr.m3u8",
+      "raison": "HTTP 404"
+    },
+    {
+      "chaine": "Al Maghribia المغربية الإخبارية",
+      "pays": "Maroc",
+      "source": "Ahmad Arabic Channels",
+      "url": "https://cdn.live.easybroadcast.io/abr_corp/73_almaghribia_83tz85q/corp/73_almaghribia_83tz85q_480p/chunks_dvr.m3u8",
+      "raison": "HTTP 403"
+    },
+    {
+      "chaine": "Assadissa القرآن الكريم",
+      "pays": "Maroc",
+      "source": "Ahmad Arabic Channels",
+      "url": "https://cdn.live.easybroadcast.io/ts_corp/73_assadissa_7b7u5n1/playlist_dvr.m3u8",
+      "raison": "HTTP 404"
+    },
+    {
+      "chaine": "Télé Maroc قناة المغرب",
+      "pays": "Maroc",
+      "source": "Ahmad Arabic Channels",
+      "url": "https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/kuw/telmar.m3u8",
+      "raison": "HTTP 404"
+    },
+    {
+      "chaine": "M24 وكالة المغرب العربي للأنباء",
+      "pays": "Maroc",
+      "source": "Ahmad Arabic Channels",
+      "url": "https://63df3191463ce.streamlock.net/live/ngrp:Live2.stream_all/chunklist_w1880481615_b1396000.m3u8",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "Medi 1 العربية",
+      "pays": "Maroc",
+      "source": "Ahmad Arabic Channels",
+      "url": "https://streaming1.medi1tv.com/live/smil:medi1ar.smil/playlist.m3u8",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "Medi1 المغرب",
+      "pays": "Maroc",
+      "source": "Ahmad Arabic Channels",
+      "url": "http://streaming1.medi1tv.com/live/smil:medi1tv.smil/playlist.m3u8",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "Medi 1 Afrique",
+      "pays": "Maroc",
+      "source": "Ahmad Arabic Channels",
+      "url": "https://streaming1.medi1tv.com/live/smil:medi1fr.smil/playlist.m3u8",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "Chada TV شدى",
+      "pays": "Maroc",
+      "source": "Ahmad Arabic Channels",
+      "url": "https://chadatv.vedge.infomaniak.com/livecast/chadatv/playlist.m3u8",
+      "raison": "HTTP 404"
+    },
+    {
+      "chaine": "الوطنية 1",
+      "pays": "Tunisie",
+      "source": "Ahmad Arabic Channels",
+      "url": "https://viamotionhsi.netplus.ch/live/eds/tunisienationale/browser-HLS8/tunisienationale.m3u8",
+      "raison": "The read operation timed out"
+    },
+    {
+      "chaine": "صوت الساحل التونسي",
+      "pays": "Tunisie",
+      "source": "Ahmad Arabic Channels",
+      "url": "http://142.44.214.231:1935/saheltv/myStream/playlist.m3u8",
+      "raison": "<urlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "chaine": "موزاييك",
+      "pays": "Tunisie",
+      "source": "Ahmad Arabic Channels",
+      "url": "https://cdn.live.easybroadcast.io/abr_corp/63_mosaique-fm_rn56tgl/playlist_dvr.m3u8",
+      "raison": "HTTP 404"
+    },
+    {
+      "chaine": "العربي 2",
+      "pays": "Maroc",
+      "source": "Ahmad Arabic Channels",
+      "url": "https://alaraby.cdn.octivid.com/alaraby2n/smil:alaraby2n.stream.smil/chunklist.m3u8",
+      "raison": "HTTP 500"
+    },
+    {
+      "chaine": "4Kids TV",
+      "pays": "Algérie",
+      "source": "Sorted IPTV Arabic",
+      "url": "http://tvsen5.aynascope.net/4KidsTV/index.m3u8",
+      "raison": "timed out"
+    },
+    {
+      "chaine": "Al Aoula (SD)",
+      "pays": "Maroc",
+      "source": "Sorted IPTV Arabic",
+      "url": "https://snrtworker.kharazbelaid.workers.dev/?id=alaoula.m3u8",
+      "raison": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "chaine": "Arryadia (SD)",
+      "pays": "Maroc",
+      "source": "Sorted IPTV Arabic",
+      "url": "https://snrtworker.kharazbelaid.workers.dev/?id=arryadia.m3u8",
+      "raison": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "chaine": "Assadissa",
+      "pays": "Maroc",
+      "source": "Sorted IPTV Arabic",
+      "url": "https://snrtworker.kharazbelaid.workers.dev/?id=assadisa.m3u8",
+      "raison": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "chaine": "Athaqafia",
+      "pays": "Maroc",
+      "source": "Sorted IPTV Arabic",
+      "url": "https://snrtworker.kharazbelaid.workers.dev/?id=arrabia.m3u8",
+      "raison": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "chaine": "El-Heddaf TV",
+      "pays": "Algérie",
+      "source": "Sorted IPTV Arabic",
+      "url": "https://live.elheddaftv.com:8081/elheddaf/index.mpd",
+      "raison": "HTTP 404"
+    },
+    {
+      "chaine": "Jawhara TV",
+      "pays": "Tunisie",
+      "source": "Sorted IPTV Arabic",
+      "url": "http://streaming.toutech.net:1935/live/mp4:jawharafm.sdp/playlist.m3u8",
+      "raison": "Réponse HTML/XML/JSON"
+    },
+    {
+      "chaine": "Laayoune TV",
+      "pays": "Maroc",
+      "source": "Sorted IPTV Arabic",
+      "url": "https://snrtworker.kharazbelaid.workers.dev/?id=laayoune.m3u8",
+      "raison": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "chaine": "Tamazight TV",
+      "pays": "Maroc",
+      "source": "Sorted IPTV Arabic",
+      "url": "https://snrtworker.kharazbelaid.workers.dev/?id=tamazight.m3u8",
+      "raison": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "chaine": "2M Monde (360p)",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8",
+      "raison": "HTTP 400"
+    },
+    {
+      "chaine": "Al Aoula International (360p)",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "https://cdn-globecast.akamaized.net/live/eds/al_aoula_inter/hls_snrt/al_aoula_inter.m3u8",
+      "raison": "HTTP 403"
+    },
+    {
+      "chaine": "Al Aoula Laâyoune (360p)",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "https://cdn-globecast.akamaized.net/live/eds/al_aoula_laayoune/hls_snrt/index.m3u8",
+      "raison": "HTTP 403"
+    },
+    {
+      "chaine": "Al Maghribia (360p)",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "https://cdn-globecast.akamaized.net/live/eds/al_maghribia_snrt/hls_snrt/index.m3u8",
+      "raison": "HTTP 403"
+    },
+    {
+      "chaine": "Algérie TV2 (480p)",
+      "pays": "Algérie",
+      "source": "Arab IPTV archive",
+      "url": "https://bozztv.com/inim03/live1/giniko_canalalgerie/chunks.m3u8",
+      "raison": "HTTP 403"
+    },
+    {
+      "chaine": "Amou Yazid TV (1080p)",
+      "pays": "Algérie",
+      "source": "Arab IPTV archive",
+      "url": "http://numide.servemp3.com:8089/hls/ay1.m3u8",
+      "raison": "<urlopen error [Errno -5] No address associated with hostname>"
+    },
+    {
+      "chaine": "Arryadia (360p) [Not 24/7]",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "https://cdn-globecast.akamaized.net/live/eds/arriadia/hls_snrt/index.m3u8",
+      "raison": "HTTP 403"
+    },
+    {
+      "chaine": "Assadissa (360p)",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "https://cdn-globecast.akamaized.net/live/eds/assadissa/hls_snrt/index.m3u8",
+      "raison": "HTTP 403"
+    },
+    {
+      "chaine": "Athaqafia (360p)",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "https://cdn-globecast.akamaized.net/live/eds/arrabiaa/hls_snrt/index.m3u8",
+      "raison": "HTTP 403"
+    },
+    {
+      "chaine": "Echorouk News (576p) [Not 24/7]",
+      "pays": "Algérie",
+      "source": "Arab IPTV archive",
+      "url": "https://bledflix-echorouk-news.b-cdn.net/master.m3u8",
+      "raison": "HTTP 403"
+    },
+    {
+      "chaine": "Echorouk TV (576p) [Not 24/7]",
+      "pays": "Algérie",
+      "source": "Arab IPTV archive",
+      "url": "https://echorouk-live-tv.dzsecurity.net/fullres/EchoroukTV_First/playlist.m3u8",
+      "raison": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "chaine": "El Bilad (576p) [Not 24/7]",
+      "pays": "Algérie",
+      "source": "Arab IPTV archive",
+      "url": "https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/dzflix/elbilad.m3u8",
+      "raison": "HTTP 404"
+    },
+    {
+      "chaine": "Elwatania TV (720p) [Not 24/7]",
+      "pays": "Algérie",
+      "source": "Arab IPTV archive",
+      "url": "https://stream.castr.com/62c18c3f14d09a0b7e5355a5/live_1b36cfb0ba2411ee9700956e0f7084c8/index.fmp4.m3u8",
+      "raison": "HTTP 403"
+    },
+    {
+      "chaine": "Ennahar TV (576p) [Not 24/7] [Geo-blocked]",
+      "pays": "Algérie",
+      "source": "Arab IPTV archive",
+      "url": "https://ennahar-live.dzsecurity.net/fullres/EnnaharTV_First/playlist.m3u8",
+      "raison": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "chaine": "Essaida TV",
+      "pays": "Tunisie",
+      "source": "Arab IPTV archive",
+      "url": "https://essaidatv.dextream.com/hls/stream/index.m3u8",
+      "raison": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "chaine": "IFM TV (720p) [Not 24/7]",
+      "pays": "Tunisie",
+      "source": "Arab IPTV archive",
+      "url": "https://ythls.armelin.one/channel/UCvPW0VhnTcxYjWIxCvMlw2Q.m3u8",
+      "raison": "<urlopen error [Errno -5] No address associated with hostname>"
+    },
+    {
+      "chaine": "M24 TV (720p) [Not 24/7]",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "https://63df3191463ce.streamlock.net/live/ngrp:Live2.stream_all/index.m3u8",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "Medi 1 TV Maghreb (1080p) [Not 24/7]",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "https://streaming1.medi1tv.com/live/smil:medi1tv.smil/playlist.m3u8",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "Mosaïque FM (480p) [Not 24/7]",
+      "pays": "Tunisie",
+      "source": "Arab IPTV archive",
+      "url": "https://webcam.mosaiquefm.net:1936/mosatv/studio/playlist.m3u8",
+      "raison": "<urlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "chaine": "Nessma (1080p)",
+      "pays": "Tunisie",
+      "source": "Arab IPTV archive",
+      "url": "https://shls-live-ak.akamaized.net/out/v1/119ae95bbc91462093918a7c6ba11415/index.m3u8",
+      "raison": "HTTP 403"
+    },
+    {
+      "chaine": "Samira TV (576p)",
+      "pays": "Algérie",
+      "source": "Arab IPTV archive",
+      "url": "https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/dzflix/samira.m3u8",
+      "raison": "HTTP 404"
+    },
+    {
+      "chaine": "Tamazight (360p)",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "https://cdn-globecast.akamaized.net/live/eds/tamazight_tv8_snrt/hls_snrt/index.m3u8",
+      "raison": "HTTP 403"
+    },
+    {
+      "chaine": "Télé Maroc (1080p)",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "https://api.new.livestream.com/accounts/27130247/events/9197096/live.m3u8",
+      "raison": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "chaine": "Tunisie Immobilier TV (720p) [Not 24/7]",
+      "pays": "Tunisie",
+      "source": "Arab IPTV archive",
+      "url": "https://5ac31d8a4c9af.streamlock.net/tunimmob/myStream/playlist.m3u8",
+      "raison": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for '5ac31d8a4c9af.streamlock.net'. (_ssl"
+    },
+    {
+      "chaine": "Watania 1 (1080p)",
+      "pays": "Tunisie",
+      "source": "Arab IPTV archive",
+      "url": "https://ythls.armelin.one/channel/UCdvWVsmQBROkgcGzVep73oA.m3u8",
+      "raison": "<urlopen error [Errno -5] No address associated with hostname>"
+    },
+    {
+      "chaine": "Watania 2 (480p)",
+      "pays": "Tunisie",
+      "source": "Arab IPTV archive",
+      "url": "https://ythls.armelin.one/channel/UCJW9gatYczI191TunQxMGbA.m3u8",
+      "raison": "<urlopen error [Errno -5] No address associated with hostname>"
+    },
+    {
+      "chaine": "EL nahar Algérie",
+      "pays": "Algérie",
+      "source": "Arab IPTV archive",
+      "url": "http://numidiatv-live.dzsecurity.net:8081/entv/EnnaharTV_SD/chunks.m3u8",
+      "raison": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "chaine": "alanis HD",
+      "pays": "Algérie",
+      "source": "Arab IPTV archive",
+      "url": "http://alanis.live.net.sa:1935/live/alanis/chunklist_w23715747.m3u8?v=",
+      "raison": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "chaine": "Tamaghza Monde Tv",
+      "pays": "Algérie",
+      "source": "Arab IPTV archive",
+      "url": "http://live-h1.frontlayer.net/fl385281/live/chunks.m3u8",
+      "raison": "HTTP 404"
+    },
+    {
+      "chaine": "Tamaghza Monde Tv",
+      "pays": "Algérie",
+      "source": "Arab IPTV archive",
+      "url": "http://217.182.250.232:8081/echo/EchoroukTV/chunks.m3u8",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "Al Aoula International",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
       "url": "http://cdn-hls.globecast.tv/live/ramdisk/al_aoula_inter/hls_snrt/index.m3u8",
       "raison": "<urlopen error [Errno -3] Temporary failure in name resolution>"
     },
     {
+      "chaine": "Al Aoula Laayoune",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "http://cdn-hls.globecast.tv/live/ramdisk/al_aoula_laayoune/hls_snrt/index.m3u8",
+      "raison": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "chaine": "Medi 1 TV",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "https://streaming.medi1tv.com/live/Medi1tvmaghreb.sdp/chunklist_w472602734.m3u8",
+      "raison": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
       "chaine": "2M Monde",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/2m_monde/hls_video_ts/2m_monde.m3u8",
+      "raison": "HTTP 400"
+    },
+    {
+      "chaine": "Arryadia",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "http://cdn-hls.globecast.tv/live/ramdisk/arriadia/hls_snrt/index.m3u8",
+      "raison": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "chaine": "Athaqafia",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "http://cdn-hls.globecast.tv/live/ramdisk/arrabiaa/hls_snrt/index.m3u8",
+      "raison": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "chaine": "Al Maghribia",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "http://cdn-hls.globecast.tv/live/ramdisk/al_maghribia_snrt/hls_snrt/index.m3u8",
+      "raison": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "chaine": "Assadissa",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "http://cdn-hls.globecast.tv/live/ramdisk/assadissa/hls_snrt/index.m3u8",
+      "raison": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "chaine": "Tamazight",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "http://cdn-hls.globecast.tv/live/ramdisk/tamazight_tv8_snrt/hls_snrt/index.m3u8",
+      "raison": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "chaine": "M24 TV",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "https://www.m24tv.ma/live/smil:OutStream1.smil/chunklist.m3u8",
+      "raison": "HTTP 403"
+    },
+    {
+      "chaine": "Télé Maroc",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "https://playback.akamaized.net/streams/27130247_8196478_lsi1asag3me5k987an9_1/media/27130247_8196478_lsi1asag3me5k987an9_1@628000p.m3u8?dw=14400&ts=1587589200&hdnts=exp=1587764800~acl=/streams/27130247_8196478_lsi1asag3me5k987an9_1/media*~hmac=3f2c11f4d4ec8cda1f4f85d878f5fe515b119c1d61fd2541255afa97f14cb13c",
+      "raison": "HTTP 403"
+    },
+    {
+      "chaine": "Chada TV",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "https://chadatv.vedge.infomaniak.com/livecast/chadatv/chunklist.m3u8",
+      "raison": "HTTP 404"
+    },
+    {
+      "chaine": "Chada TV",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "https://edge7.vedge.infomaniak.com/livecast/chadatv/manifest.m3u8",
+      "raison": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "chaine": "Al Aoula International+",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_inter/hls_snrt/al_aoula_inter.m3u8",
+      "raison": "HTTP 400"
+    },
+    {
+      "chaine": "Al Aoula International++",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_inter/hls_snrt/al_aoula_inter-avc1_1500000=4-mp4a_130400_qad=1.m3u8",
+      "raison": "HTTP 400"
+    },
+    {
+      "chaine": "Al Aoula International+++",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "http://cdn-hls.globecast.tv/live/ramdisk/al_aoula_inter/hls_snrt/al_aoula_inter-avc1_1500000=4-mp4a_130400_qad=1.m3u8",
+      "raison": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "chaine": "Al Aoula Laayoune+",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_laayoune/hls_snrt/index.m3u8",
+      "raison": "HTTP 400"
+    },
+    {
+      "chaine": "Al Aoula Laayoune++",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_laayoune/hls_snrt/al_aoula_laayoune-avc1_1500000=4-mp4a_130400_qad=1.m3u8",
+      "raison": "HTTP 400"
+    },
+    {
+      "chaine": "Medi 1 TV+",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "https://streaming.medi1tv.com/live/Medi1tvArabia.sdp/playlist.m3u8",
+      "raison": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "chaine": "2M Monde+",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/2m_monde/hls_video_ts/2m_monde-avc1_1500000=4-mp4a_130400_qad=1.m3u8?3564838283",
+      "raison": "HTTP 400"
+    },
+    {
+      "chaine": "Arryadia+",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/arriadia/hls_snrt/index.m3u8",
+      "raison": "HTTP 400"
+    },
+    {
+      "chaine": "Athaqafia++",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/arrabiaa/hls_snrt/index.m3u8",
+      "raison": "HTTP 400"
+    },
+    {
+      "chaine": "Athaqafia+++",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/arrabiaa/hls_snrt/index.m3u8?fluxustv.m3u8",
+      "raison": "HTTP 400"
+    },
+    {
+      "chaine": "Athaqafia++++",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/arrabiaa/hls_snrt/arrabiaa-avc1_1500000=4-mp4a_130400_qad=1.m3u8",
+      "raison": "HTTP 400"
+    },
+    {
+      "chaine": "Al Maghribia+",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_maghribia_snrt/hls_snrt/al_maghribia_snrt-avc1_1500000=4-mp4a_130400_qad=1.m3u8",
+      "raison": "HTTP 400"
+    },
+    {
+      "chaine": "Al Maghribia++",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_maghribia_snrt/hls_snrt/index.m3u8",
+      "raison": "HTTP 400"
+    },
+    {
+      "chaine": "Assadissa+",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/assadissa/hls_snrt/index.m3u8",
+      "raison": "HTTP 400"
+    },
+    {
+      "chaine": "Tamazight+",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/tamazight_tv8_snrt/hls_snrt/index.m3u8",
+      "raison": "HTTP 400"
+    },
+    {
+      "chaine": "M24 TV+",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "http://79.137.106.241/live/smil:OutStream1.smil/playlist.m3u8",
+      "raison": "<urlopen error timed out>"
+    },
+    {
+      "chaine": "Arryadia TNT",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/arriadia/hls_snrt/arriadia-avc1_1500000=4-mp4a_130400_qad=1.m3u8",
+      "raison": "HTTP 400"
+    },
+    {
+      "chaine": "Arryadia+++",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "http://www.elahmad.com/tv/m3u8/maroc.m3u8?id=arriadia",
+      "raison": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "chaine": "Assadissa",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/assadissa/hls_snrt/assadissa-avc1_1500000=4-mp4a_130400_qad=1.m3u8",
+      "raison": "HTTP 400"
+    },
+    {
+      "chaine": "El Hayat الحياة",
+      "pays": "Algérie",
+      "source": "Arab IPTV archive",
+      "url": "https://elhayat-live-tv.dzsecurity.net/fullres/ElhayatTV_First/playlist.m3u8",
+      "raison": "<urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1010)>"
+    },
+    {
+      "chaine": "Al Oula الأولى off",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "https://cdn-globecast.akamaized.net/live/eds/al_aoula_inter/hls_snrt/index.m3u8",
+      "raison": "HTTP 403"
+    },
+    {
+      "chaine": "Al Oula Laayoune الأولى العيون off",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_laayoune/hls_snrt/index.m3u8",
+      "raison": "HTTP 400"
+    },
+    {
+      "chaine": "Télé Maroc قناة المغرب off",
+      "pays": "Maroc",
+      "source": "Arab IPTV archive",
+      "url": "https://api.new.livestream.com/accounts/27130247/events/8196478/live.m3u8",
+      "raison": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "chaine": "2M Monde",
+      "pays": "Maroc",
       "source": "Gist Arabic Free",
       "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/2m_monde/hls_snrt/index.m3u8",
       "raison": "HTTP 400"
     },
     {
       "chaine": "Arryadia",
+      "pays": "Maroc",
       "source": "Gist Arabic Free",
       "url": "http://cdn-hls.globecast.tv/live/ramdisk/arryadia/hls_snrt/index.m3u8",
       "raison": "<urlopen error [Errno -3] Temporary failure in name resolution>"
     },
     {
       "chaine": "ENTV",
+      "pays": "Algérie",
       "source": "Gist Arabic Free",
       "url": "https://5.196.76.59:8081/entv/index.m3u8",
       "raison": "<urlopen error timed out>"
     },
     {
       "chaine": "Canal Algérie",
+      "pays": "Algérie",
       "source": "Gist Arabic Free",
       "url": "https://5.196.76.59:8081/canala/index.m3u8",
       "raison": "<urlopen error timed out>"
     },
     {
       "chaine": "Wataniya 1",
+      "pays": "Tunisie",
       "source": "Gist Arabic Free",
       "url": "http://live.watania1.tn/hls/watania1/playlist.m3u8",
       "raison": "<urlopen error timed out>"
     },
     {
       "chaine": "Wataniya 2",
+      "pays": "Tunisie",
       "source": "Gist Arabic Free",
       "url": "http://live.watania2.tn/hls/watania2/playlist.m3u8",
       "raison": "<urlopen error timed out>"
     },
     {
       "chaine": "Al Aoula (الأولى)",
+      "pays": "Maroc",
       "source": "Gist Morocco",
       "url": "https://streaming.snrtlive.ma/live/slaalaoula/slaalaoula.m3u8",
       "raison": "<urlopen error [Errno -2] Name or service not known>"
     },
     {
       "chaine": "2M Monde (القناة الثانية)",
+      "pays": "Maroc",
       "source": "Gist Morocco",
       "url": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/2m/2m.m3u8",
       "raison": "HTTP 400"
     },
     {
       "chaine": "Arryadia (الرياضية)",
+      "pays": "Maroc",
       "source": "Gist Morocco",
       "url": "https://streaming.snrtlive.ma/live/slaarryadia/slaarryadia.m3u8",
       "raison": "<urlopen error [Errno -2] Name or service not known>"
     },
     {
       "chaine": "Tamazight TV (الأمازيغية)",
+      "pays": "Maroc",
       "source": "Gist Morocco",
       "url": "https://streaming.snrtlive.ma/live/slataamazight/slataamazight.m3u8",
       "raison": "<urlopen error [Errno -2] Name or service not known>"
     },
     {
       "chaine": "Assadissa (السادسة)",
+      "pays": "Maroc",
       "source": "Gist Morocco",
       "url": "https://streaming.snrtlive.ma/live/slaassadissa/slaassadissa.m3u8",
       "raison": "<urlopen error [Errno -2] Name or service not known>"
     },
     {
       "chaine": "Al Maghribia (المغربية)",
+      "pays": "Maroc",
       "source": "Gist Morocco",
       "url": "https://streaming.snrtlive.ma/live/slamaghribia/slamaghribia.m3u8",
       "raison": "<urlopen error [Errno -2] Name or service not known>"
     },
     {
       "chaine": "Medi1 TV",
+      "pays": "Maroc",
       "source": "Gist Morocco",
       "url": "https://streaming.medi1tv.com/live/smil:medi1tv.smil/playlist.m3u8",
       "raison": "<urlopen error [Errno -2] Name or service not known>"
