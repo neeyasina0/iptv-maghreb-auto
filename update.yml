@@ -1,0 +1,32 @@
+name: Actualiser IPTV Maghreb
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Recuperer le depot
+        uses: actions/checkout@v4
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generer les playlists
+        run: python update_playlist.py
+      - name: Publier les fichiers mis a jour
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add maghreb.m3u maghreb-complet.m3u maghreb-secours.m3u etat.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Actualisation Maghreb V3"
+            git push
+          fi
