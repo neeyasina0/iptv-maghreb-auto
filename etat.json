@@ -1,5 +1,54 @@
 {
-  "mise_a_jour_utc": "2026-10-28T22:01:39.391133+00:00",
-  "statut": "Sélection de départ non vérifiée. Première mise à jour nécessaire.",
-  "last_ok": {}
+  "mise_a_jour_utc": "2026-10-29T19:59:59+00:00",
+  "pays": [
+    "Algérie",
+    "Maroc",
+    "Tunisie"
+  ],
+  "flux_source_uniques": 21,
+  "flux_http_accessibles_ce_controle": 17,
+  "flux_conserves_grace_24h": 0,
+  "flux_publies_filtres": 17,
+  "avertissement": "Contrôle HTTP sur GitHub ; la lecture en France et sur votre appareil n'est pas garantie.",
+  "last_ok": {
+    "https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_240p/chunks.m3u8": "2026-10-29T19:59:59+00:00",
+    "http://mkstream.servehttp.com:1940/AmouYazid/ay1/playlist.m3u8": "2026-10-29T19:59:59+00:00",
+    "https://136044159.r.cdnsun.net/storychannel.m3u8": "2026-10-29T19:59:59+00:00",
+    "http://185.9.2.18/chid_347/index.m3u8": "2026-10-29T19:59:59+00:00",
+    "http://185.9.2.18/chid_218/index.m3u8": "2026-10-29T19:59:59+00:00",
+    "https://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8": "2026-10-29T19:59:59+00:00",
+    "https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8": "2026-10-29T19:59:59+00:00",
+    "http://185.9.2.18/chid_205/index.m3u8": "2026-10-29T19:59:59+00:00",
+    "http://149.100.11.252:8000/play/a065/index.m3u8": "2026-10-29T19:59:59+00:00",
+    "https://edge13.vedge.infomaniak.com/livecast/ik:chadatv/manifest.m3u8": "2026-10-29T19:59:59+00:00",
+    "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-5/ee6b000cee0629411b666ab26cb13e9b/index.m3u8": "2026-10-29T19:59:59+00:00",
+    "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-afrique_tm7tu45/playlist.m3u8": "2026-10-29T19:59:59+00:00",
+    "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist.m3u8": "2026-10-29T19:59:59+00:00",
+    "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist.m3u8": "2026-10-29T19:59:59+00:00",
+    "https://sw1.tanitweb.net/TunisiaTV/_definst_/watania1/chunklist.m3u8": "2026-10-29T19:59:59+00:00",
+    "https://sw1.tanitweb.net/TunisiaTV/_definst_/watania2/playlist.m3u8?DVR": "2026-10-29T19:59:59+00:00",
+    "https://webcam.mosaiquefm.net/mosatv/_definst_/studio/playlist.m3u8?DVR": "2026-10-29T19:59:59+00:00"
+  },
+  "echecs": [
+    {
+      "chaine": "CNA (Algeria) (360p) [Not 24/7]",
+      "url": "https://live.creacast.com/cna/stream/playlist.m3u8",
+      "raison": "HTTP 403"
+    },
+    {
+      "chaine": "El-Heddaf TV (1080p)",
+      "url": "https://live.elheddaftv.com:8081/elheddaftv/index.m3u8",
+      "raison": "HTTP 404"
+    },
+    {
+      "chaine": "Elwatania TV (1080i)",
+      "url": "https://livesstream.work.gd:5443/WebRTCApp/streams/stream.m3u8",
+      "raison": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'livess"
+    },
+    {
+      "chaine": "TV4 (Algeria) (720p)",
+      "url": "http://91.228.35.249:8001/1:0:1:06A6:3138:13E:820000:0:0:0",
+      "raison": "<urlopen error timed out>"
+    }
+  ]
 }
