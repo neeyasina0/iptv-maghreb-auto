@@ -1,8 +1,7 @@
 #EXTM3U
-# Playlist Maghreb automatique | toutes les entrées source
-# Mise à jour UTC : 2026-10-29T19:59:59+00:00
-# Algérie, Maroc, Tunisie uniquement. Source : https://iptv-org.github.io/iptv/
-# Contrôles réseau indicatifs ; un flux peut être géobloqué ou interrompu.
+# IPTV Maghreb V2 | TOUS LES FLUX
+# MAJ UTC: 2026-10-29T21:08:00+00:00 | Algérie, Maroc, Tunisie seulement
+# Vérification HTTP indicative (GitHub) - lecture non garantie
 #EXTINF:-1 tvg-id="AL24News.dz@SD" tvg-logo="https://i.imgur.com/vyVEXYL.png" group-title="Algérie",AL24 News
 https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_240p/chunks.m3u8
 
@@ -17,9 +16,6 @@ https://live.elheddaftv.com:8081/elheddaftv/index.m3u8
 
 #EXTINF:-1 tvg-id="ElwataniaTV.dz@SD" tvg-logo="https://i.imgur.com/NKR8WFq.png" group-title="Algérie",Elwatania TV (1080i)
 https://livesstream.work.gd:5443/WebRTCApp/streams/stream.m3u8
-
-#EXTINF:-1 tvg-id="StoryChannelTV.ma@SD" tvg-logo="https://i.imgur.com/ZBV6xph.png" group-title="Algérie",StoryChannel TV (720p)
-https://136044159.r.cdnsun.net/storychannel.m3u8
 
 #EXTINF:-1 tvg-id="TV2.dz@SD" tvg-logo="https://i.imgur.com/VEb631f.png" group-title="Algérie",TV2 (Algeria) (1080p)
 http://185.9.2.18/chid_347/index.m3u8
@@ -47,9 +43,6 @@ http://149.100.11.252:8000/play/a065/index.m3u8
 #EXTINF:-1 tvg-id="ChadaTV.ma@SD" tvg-logo="https://freebox.cdn.scw.iliad.fr/medium_Logo_chada_tv_2ee1412d38.png" group-title="Maroc",Chada TV (720p)
 https://edge13.vedge.infomaniak.com/livecast/ik:chadatv/manifest.m3u8
 
-#EXTINF:-1 tvg-id="MBC5.ae@SD" tvg-logo="https://i.imgur.com/fRWaDyF.png" group-title="Maroc",MBC 5 (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-5/ee6b000cee0629411b666ab26cb13e9b/index.m3u8
-
 #EXTINF:-1 tvg-id="Medi1TVAfrique.ma@SD" tvg-logo="https://i.imgur.com/a20DHnj.png" group-title="Maroc",Medi1TV Afrique (1080p)
 https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-afrique_tm7tu45/playlist.m3u8
 
@@ -59,6 +52,9 @@ https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist.m3
 #EXTINF:-1 tvg-id="Medi1TVMaghreb.ma@SD" tvg-logo="https://i.imgur.com/F5OFQsp.jpeg" group-title="Maroc",Medi1TV Maghreb (1080p)
 https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist.m3u8
 
+#EXTINF:-1 tvg-id="StoryChannelTV.ma@SD" tvg-logo="https://i.imgur.com/ZBV6xph.png" group-title="Maroc",StoryChannel TV (720p)
+https://136044159.r.cdnsun.net/storychannel.m3u8
+
 #EXTINF:-1 tvg-id="ElWatania1.tn@SD" tvg-logo="https://i.imgur.com/gNr2V14.png" group-title="Tunisie",El Watania 1 (1080i)
 https://sw1.tanitweb.net/TunisiaTV/_definst_/watania1/chunklist.m3u8
 
@@ -67,3 +63,69 @@ https://sw1.tanitweb.net/TunisiaTV/_definst_/watania2/playlist.m3u8?DVR
 
 #EXTINF:-1 tvg-id="MosaiqueFM.tn@SD" tvg-logo="https://i.imgur.com/GDUykah.png" group-title="Tunisie",Mosaique FM (1080p)
 https://webcam.mosaiquefm.net/mosatv/_definst_/studio/playlist.m3u8?DVR
+
+#EXTINF:-1 tvg-id="CNA.dz@SD" group-title="Algérie",CNA (Chaîne Nord Africaine) (360p) [Not 24/7]
+https://live.creacast.com/cna/smil:cna.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ChadaTV.ma@SD" group-title="Maroc",Chada TV (720p)
+https://edge19.vedge.infomaniak.com/livecast/ik:chadatv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Medi1TVAfrique.ma@SD" group-title="Maroc",Medi1TV Afrique (1080p) (DVR) (1080p)
+https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-afrique_tm7tu45/playlist_dvr.m3u8
+
+#EXTINF:-1 tvg-id="Medi1TVArabic.ma@SD" group-title="Maroc",Medi 1 TV Arabic (1080p) (DVR) (1080p)
+https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist_dvr.m3u8
+
+#EXTINF:-1 tvg-id="Medi1TVMaghreb.ma@SD" group-title="Maroc",Medi 1 TV Maghreb (1080p) (DVR) (1080p)
+https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist_dvr.m3u8
+
+#EXTINF:-1 tvg-id="ElWatania1.tn@SD" group-title="Tunisie",El Watania 1 (1080p)
+https://sw1.tanitweb.net/TunisiaTV/_definst_/watania1/playlist.m3u8?DVR
+
+#EXTINF:-1 tvg-id="ElWatania1.tn@SD" group-title="Tunisie",El Watania 1 (1080i)
+https://sw1.tanitweb.net/TunisiaTV/_definst_/watania2/chunklist.m3u8
+
+#EXTINF:-1 tvg-id="ElyssaTV.tn@HD" group-title="Tunisie",Elyssa TV (1080p)
+https://tv.elyssatv.com/live/master.m3u8
+
+#EXTINF:-1 tvg-name="Al Aoula" group-title="Maroc",Al Aoula
+http://cdn-hls.globecast.tv/live/ramdisk/al_aoula_inter/hls_snrt/index.m3u8
+
+#EXTINF:-1 tvg-name="2M Monde" group-title="Maroc",2M Monde
+https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/2m_monde/hls_snrt/index.m3u8
+
+#EXTINF:-1 tvg-name="Arryadia" group-title="Maroc",Arryadia
+http://cdn-hls.globecast.tv/live/ramdisk/arryadia/hls_snrt/index.m3u8
+
+#EXTINF:-1 group-title="Algérie",ENTV
+https://5.196.76.59:8081/entv/index.m3u8
+
+#EXTINF:-1 group-title="Algérie",Canal Algérie
+https://5.196.76.59:8081/canala/index.m3u8
+
+#EXTINF:-1 group-title="Tunisie",Wataniya 1
+http://live.watania1.tn/hls/watania1/playlist.m3u8
+
+#EXTINF:-1 group-title="Tunisie",Wataniya 2
+http://live.watania2.tn/hls/watania2/playlist.m3u8
+
+#EXTINF:-1 tvg-id="AlAoula" tvg-name="Al Aoula" group-title="Maroc",Al Aoula (الأولى)
+https://streaming.snrtlive.ma/live/slaalaoula/slaalaoula.m3u8
+
+#EXTINF:-1 tvg-id="2M" tvg-name="2M Monde" group-title="Maroc",2M Monde (القناة الثانية)
+https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/2m/2m.m3u8
+
+#EXTINF:-1 tvg-id="Arryadia" tvg-name="Arryadia" group-title="Maroc",Arryadia (الرياضية)
+https://streaming.snrtlive.ma/live/slaarryadia/slaarryadia.m3u8
+
+#EXTINF:-1 tvg-id="Tamazight" tvg-name="Tamazight TV" group-title="Maroc",Tamazight TV (الأمازيغية)
+https://streaming.snrtlive.ma/live/slataamazight/slataamazight.m3u8
+
+#EXTINF:-1 tvg-id="Assadissa" tvg-name="Assadissa" group-title="Maroc",Assadissa (السادسة)
+https://streaming.snrtlive.ma/live/slaassadissa/slaassadissa.m3u8
+
+#EXTINF:-1 tvg-id="AlMaghribia" tvg-name="Al Maghribia" group-title="Maroc",Al Maghribia (المغربية)
+https://streaming.snrtlive.ma/live/slamaghribia/slamaghribia.m3u8
+
+#EXTINF:-1 tvg-id="Medi1TV" tvg-name="Medi1TV" group-title="Maroc",Medi1 TV
+https://streaming.medi1tv.com/live/smil:medi1tv.smil/playlist.m3u8
