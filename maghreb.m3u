@@ -1,6 +1,6 @@
 #EXTM3U
 # Maghreb V3: 1 flux accessible par chaîne
-# Dernière génération UTC : 2026-10-30T00:36:02+00:00
+# Dernière génération UTC : 2026-10-30T06:39:07+00:00
 # Algérie / Maroc / Tunisie uniquement. Test HTTP ≠ lecture vidéo garantie.
 #EXTINF:-1 tvg-id="AL24News.dz@SD" tvg-logo="https://i.imgur.com/vyVEXYL.png" group-title="Algérie",AL24 News
 https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_240p/chunks.m3u8
@@ -14,8 +14,8 @@ https://github.com/MassinDV/Youtube-arabic-channels/raw/main/live/ch17.m3u8
 http://185.9.2.18/chid_347/index.m3u8
 #EXTINF:-1 tvg-id="2M.ma@SD" tvg-logo="https://i.imgur.com/PJYTfHi.png" group-title="Maroc",2M
 http://185.9.2.18/chid_218/index.m3u8
-#EXTINF:-1 tvg-id="AlAoula.ma" tvg-logo="https://i.imgur.com/nq53d2N.png" group-title="Maroc",Al Aoula (Inter HD)
-https://stream-lb.livemediama.com/alaoula/hls/master.m3u8
+#EXTINF:-1 tvg-id="AlAoula.ma" tvg-logo="https://i.imgur.com/nq53d2N.png" group-title="Maroc",Al Aoula (HD)
+https://stream-lb.livemediama.com/alaoula-tnt/hls/master.m3u8
 #EXTINF:-1 tvg-id="AlMaghribia.ma@SD" tvg-logo="https://i.imgur.com/7GaahYh.png" group-title="Maroc",Al Maghribia (1080p)
 http://185.9.2.18/chid_205/index.m3u8
 #EXTINF:-1 tvg-id="Arryadia.ma@SD" tvg-logo="https://i.imgur.com/XjzK3gZ.png" group-title="Maroc",Arryadia (720p)
