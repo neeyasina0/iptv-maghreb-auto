@@ -1,6 +1,6 @@
 #EXTM3U
 # Maghreb V3: 1 flux accessible par chaîne
-# Dernière génération UTC : 2026-10-31T12:34:20+00:00
+# Dernière génération UTC : 2026-10-31T18:30:27+00:00
 # Algérie / Maroc / Tunisie uniquement. Test HTTP ≠ lecture vidéo garantie.
 #EXTINF:-1 tvg-id="AL24News.dz@SD" tvg-logo="https://i.imgur.com/vyVEXYL.png" group-title="Algérie",AL24 News
 https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_240p/chunks.m3u8
