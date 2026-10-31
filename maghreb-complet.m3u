@@ -1,6 +1,6 @@
 #EXTM3U
 # Maghreb V3: tous les liens découverts (NON vérifiés inclus)
-# Dernière génération UTC : 2026-10-31T06:37:19+00:00
+# Dernière génération UTC : 2026-10-31T12:34:20+00:00
 # Algérie / Maroc / Tunisie uniquement. Test HTTP ≠ lecture vidéo garantie.
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/hemzaberkane/AlgeriaPicons/main/4kids.png" group-title="Algérie",4 KIDS DZ
 http://149.100.19.147:8000/play/a02t
