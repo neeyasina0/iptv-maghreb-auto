@@ -1,26 +1,26 @@
 {
   "version": "3.0",
-  "mise_a_jour_utc": "2026-11-02T07:03:31+00:00",
+  "mise_a_jour_utc": "2026-11-02T12:50:20+00:00",
   "pays": [
     "Algérie",
     "Maroc",
     "Tunisie"
   ],
   "sources_consultees": 18,
-  "sources_reussies": 18,
-  "flux_source_uniques": 170,
-  "flux_http_accessibles_ce_controle": 38,
+  "sources_reussies": 17,
+  "flux_source_uniques": 153,
+  "flux_http_accessibles_ce_controle": 30,
   "flux_conserves_grace_24h": 1,
-  "chaines_principales": 22,
-  "liens_alternatifs_valides": 17,
+  "chaines_principales": 21,
+  "liens_alternatifs_valides": 10,
   "par_pays_total": {
-    "Algérie": 51,
-    "Maroc": 96,
-    "Tunisie": 23
+    "Algérie": 49,
+    "Maroc": 82,
+    "Tunisie": 22
   },
   "par_pays_principal": {
     "Algérie": 4,
-    "Maroc": 10,
+    "Maroc": 9,
     "Tunisie": 8
   },
   "sources": [
@@ -99,8 +99,8 @@
     {
       "source": "Sorted IPTV Arabic",
       "pays": "mixte",
-      "retenus": 33,
-      "statut": "OK"
+      "retenus": 0,
+      "statut": "Échec: HTTP Error 429: Too Many Requests"
     },
     {
       "source": "Arab IPTV archive",
@@ -135,45 +135,37 @@
   ],
   "avertissement": "Contrôle sur GitHub uniquement. Ni lecture vidéo ni droits de rediffusion garantis.",
   "last_ok": {
-    "https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_240p/chunks.m3u8": "2026-11-02T07:03:31+00:00",
-    "http://mkstream.servehttp.com:1940/AmouYazid/ay1/playlist.m3u8": "2026-11-02T07:03:31+00:00",
-    "http://185.9.2.18/chid_347/index.m3u8": "2026-11-02T07:03:31+00:00",
-    "http://185.9.2.18/chid_218/index.m3u8": "2026-11-02T07:03:31+00:00",
-    "https://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8": "2026-11-02T07:03:31+00:00",
-    "https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8": "2026-11-02T07:03:31+00:00",
-    "http://185.9.2.18/chid_205/index.m3u8": "2026-11-02T07:03:31+00:00",
-    "http://149.100.11.252:8000/play/a065/index.m3u8": "2026-11-02T07:03:31+00:00",
-    "https://edge13.vedge.infomaniak.com/livecast/ik:chadatv/manifest.m3u8": "2026-11-02T07:03:31+00:00",
-    "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-afrique_tm7tu45/playlist.m3u8": "2026-11-02T07:03:31+00:00",
-    "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist.m3u8": "2026-11-02T07:03:31+00:00",
-    "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist.m3u8": "2026-11-02T07:03:31+00:00",
-    "https://136044159.r.cdnsun.net/storychannel.m3u8": "2026-11-02T07:03:31+00:00",
-    "https://sw1.tanitweb.net/TunisiaTV/_definst_/watania1/chunklist.m3u8": "2026-11-02T07:03:31+00:00",
-    "https://sw1.tanitweb.net/TunisiaTV/_definst_/watania2/playlist.m3u8?DVR": "2026-11-02T07:03:31+00:00",
-    "https://webcam.mosaiquefm.net/mosatv/_definst_/studio/playlist.m3u8?DVR": "2026-11-02T07:03:31+00:00",
-    "https://edge19.vedge.infomaniak.com/livecast/ik:chadatv/playlist.m3u8": "2026-11-02T07:03:31+00:00",
-    "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-afrique_tm7tu45/playlist_dvr.m3u8": "2026-11-02T07:03:31+00:00",
-    "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist_dvr.m3u8": "2026-11-02T07:03:31+00:00",
-    "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist_dvr.m3u8": "2026-11-02T07:03:31+00:00",
-    "https://sw1.tanitweb.net/TunisiaTV/_definst_/watania1/playlist.m3u8?DVR": "2026-11-02T07:03:31+00:00",
-    "https://sw1.tanitweb.net/TunisiaTV/_definst_/watania2/chunklist.m3u8": "2026-11-02T07:03:31+00:00",
-    "https://tv.elyssatv.com/live/master.m3u8": "2026-11-02T07:03:31+00:00",
-    "https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/playlist.m3u8": "2026-11-02T07:03:31+00:00",
-    "http://mkstream.servehttp.com:1940/AmouYazid/ay1/chunklist.m3u8": "2026-11-02T07:03:31+00:00",
-    "https://github.com/MassinDV/Youtube-arabic-channels/raw/main/live/ch35.m3u8": "2026-11-02T07:03:31+00:00",
+    "https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_240p/chunks.m3u8": "2026-11-02T12:50:20+00:00",
+    "http://mkstream.servehttp.com:1940/AmouYazid/ay1/playlist.m3u8": "2026-11-02T12:50:20+00:00",
+    "http://185.9.2.18/chid_347/index.m3u8": "2026-11-02T12:50:20+00:00",
+    "http://185.9.2.18/chid_218/index.m3u8": "2026-11-02T12:50:20+00:00",
+    "https://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8": "2026-11-02T12:50:20+00:00",
+    "https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8": "2026-11-02T12:50:20+00:00",
+    "http://185.9.2.18/chid_205/index.m3u8": "2026-11-02T12:50:20+00:00",
+    "http://149.100.11.252:8000/play/a065/index.m3u8": "2026-11-02T12:50:20+00:00",
+    "https://edge13.vedge.infomaniak.com/livecast/ik:chadatv/manifest.m3u8": "2026-11-02T12:50:20+00:00",
+    "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-afrique_tm7tu45/playlist.m3u8": "2026-11-02T12:50:20+00:00",
+    "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist.m3u8": "2026-11-02T12:50:20+00:00",
+    "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist.m3u8": "2026-11-02T12:50:20+00:00",
+    "https://136044159.r.cdnsun.net/storychannel.m3u8": "2026-11-02T12:50:20+00:00",
+    "https://sw1.tanitweb.net/TunisiaTV/_definst_/watania1/chunklist.m3u8": "2026-11-02T12:50:20+00:00",
+    "https://sw1.tanitweb.net/TunisiaTV/_definst_/watania2/playlist.m3u8?DVR": "2026-11-02T12:50:20+00:00",
+    "https://webcam.mosaiquefm.net/mosatv/_definst_/studio/playlist.m3u8?DVR": "2026-11-02T12:50:20+00:00",
+    "https://edge19.vedge.infomaniak.com/livecast/ik:chadatv/playlist.m3u8": "2026-11-02T12:50:20+00:00",
+    "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-afrique_tm7tu45/playlist_dvr.m3u8": "2026-11-02T12:50:20+00:00",
+    "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist_dvr.m3u8": "2026-11-02T12:50:20+00:00",
+    "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist_dvr.m3u8": "2026-11-02T12:50:20+00:00",
+    "https://sw1.tanitweb.net/TunisiaTV/_definst_/watania1/playlist.m3u8?DVR": "2026-11-02T12:50:20+00:00",
+    "https://sw1.tanitweb.net/TunisiaTV/_definst_/watania2/chunklist.m3u8": "2026-11-02T12:50:20+00:00",
+    "https://tv.elyssatv.com/live/master.m3u8": "2026-11-02T12:50:20+00:00",
+    "https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/playlist.m3u8": "2026-11-02T12:50:20+00:00",
+    "http://mkstream.servehttp.com:1940/AmouYazid/ay1/chunklist.m3u8": "2026-11-02T12:50:20+00:00",
+    "https://github.com/MassinDV/Youtube-arabic-channels/raw/main/live/ch35.m3u8": "2026-11-02T12:50:20+00:00",
     "https://streaming.toutech.net/live/jtv/index.m3u8": "2026-11-02T07:03:31+00:00",
-    "https://github.com/MassinDV/Youtube-arabic-channels/raw/main/live/ch17.m3u8": "2026-11-02T07:03:31+00:00",
-    "https://stream-lb.livemediama.com/2m/hls/master.m3u8": "2026-11-02T07:03:31+00:00",
-    "https://stream-lb.livemediama.com/alaoula-tnt/hls/master.m3u8": "2026-11-02T07:03:31+00:00",
-    "https://stream-lb.livemediama.com/alaoula/hls/master.m3u8": "2026-11-02T00:42:27+00:00",
-    "https://stream-lb.livemediama.com/arryadia-tnt/hls/master.m3u8": "2026-11-02T07:03:31+00:00",
-    "https://stream-lb.livemediama.com/arryadia/hls/master.m3u8": "2026-11-02T07:03:31+00:00",
-    "https://stream-lb.livemediama.com/arryadia-hd-01/hls/master.m3u8": "2026-11-02T07:03:31+00:00",
-    "https://stream-lb.livemediama.com/arryadia-hd-02/hls/master.m3u8": "2026-11-02T07:03:31+00:00",
-    "https://stream-lb.livemediama.com/arryadia-hd-03/hls/master.m3u8": "2026-11-02T07:03:31+00:00",
-    "https://video1.getstreamhosting.com:1936/8320/8320/playlist.m3u8": "2026-11-02T07:03:31+00:00",
-    "https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_1080p/chunks.m3u8": "2026-11-02T07:03:31+00:00",
-    "https://github.com/MassinDV/Youtube-arabic-channels/raw/main/live/ch96.m3u8": "2026-11-02T07:03:31+00:00"
+    "https://github.com/MassinDV/Youtube-arabic-channels/raw/main/live/ch17.m3u8": "2026-11-02T12:50:20+00:00",
+    "https://video1.getstreamhosting.com:1936/8320/8320/playlist.m3u8": "2026-11-02T12:50:20+00:00",
+    "https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_1080p/chunks.m3u8": "2026-11-02T12:50:20+00:00",
+    "https://github.com/MassinDV/Youtube-arabic-channels/raw/main/live/ch96.m3u8": "2026-11-02T12:50:20+00:00"
   },
   "echecs": [
     {
@@ -195,7 +187,7 @@
       "pays": "Algérie",
       "source": "IPTV-org pays",
       "url": "https://livesstream.work.gd:5443/WebRTCApp/streams/stream.m3u8",
-      "raison": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'livesstream.work.gd'. (_ssl.c:1010)>"
+      "raison": "<urlopen error timed out>"
     },
     {
       "chaine": "TV4 (Algeria) (720p)",
@@ -471,81 +463,18 @@
       "raison": "HTTP 404"
     },
     {
+      "chaine": "جوهرة",
+      "pays": "Tunisie",
+      "source": "Ahmad Arabic Channels",
+      "url": "https://streaming.toutech.net/live/jtv/index.m3u8",
+      "raison": "HTTP 404"
+    },
+    {
       "chaine": "العربي 2",
       "pays": "Maroc",
       "source": "Ahmad Arabic Channels",
       "url": "https://alaraby.cdn.octivid.com/alaraby2n/smil:alaraby2n.stream.smil/chunklist.m3u8",
       "raison": "HTTP 500"
-    },
-    {
-      "chaine": "4Kids TV",
-      "pays": "Algérie",
-      "source": "Sorted IPTV Arabic",
-      "url": "http://tvsen5.aynascope.net/4KidsTV/index.m3u8",
-      "raison": "timed out"
-    },
-    {
-      "chaine": "Al Aoula (Inter HD)",
-      "pays": "Maroc",
-      "source": "Sorted IPTV Arabic",
-      "url": "https://stream-lb.livemediama.com/alaoula/hls/master.m3u8",
-      "raison": "<urlopen error timed out>"
-    },
-    {
-      "chaine": "Al Aoula (SD)",
-      "pays": "Maroc",
-      "source": "Sorted IPTV Arabic",
-      "url": "https://snrtworker.kharazbelaid.workers.dev/?id=alaoula.m3u8",
-      "raison": "<urlopen error [Errno -2] Name or service not known>"
-    },
-    {
-      "chaine": "Arryadia (SD)",
-      "pays": "Maroc",
-      "source": "Sorted IPTV Arabic",
-      "url": "https://snrtworker.kharazbelaid.workers.dev/?id=arryadia.m3u8",
-      "raison": "<urlopen error [Errno -2] Name or service not known>"
-    },
-    {
-      "chaine": "Assadissa",
-      "pays": "Maroc",
-      "source": "Sorted IPTV Arabic",
-      "url": "https://snrtworker.kharazbelaid.workers.dev/?id=assadisa.m3u8",
-      "raison": "<urlopen error [Errno -2] Name or service not known>"
-    },
-    {
-      "chaine": "Athaqafia",
-      "pays": "Maroc",
-      "source": "Sorted IPTV Arabic",
-      "url": "https://snrtworker.kharazbelaid.workers.dev/?id=arrabia.m3u8",
-      "raison": "<urlopen error [Errno -2] Name or service not known>"
-    },
-    {
-      "chaine": "El-Heddaf TV",
-      "pays": "Algérie",
-      "source": "Sorted IPTV Arabic",
-      "url": "https://live.elheddaftv.com:8081/elheddaf/index.mpd",
-      "raison": "HTTP 404"
-    },
-    {
-      "chaine": "Jawhara TV",
-      "pays": "Tunisie",
-      "source": "Sorted IPTV Arabic",
-      "url": "http://streaming.toutech.net:1935/live/mp4:jawharafm.sdp/playlist.m3u8",
-      "raison": "Réponse HTML/XML/JSON"
-    },
-    {
-      "chaine": "Laayoune TV",
-      "pays": "Maroc",
-      "source": "Sorted IPTV Arabic",
-      "url": "https://snrtworker.kharazbelaid.workers.dev/?id=laayoune.m3u8",
-      "raison": "<urlopen error [Errno -2] Name or service not known>"
-    },
-    {
-      "chaine": "Tamazight TV",
-      "pays": "Maroc",
-      "source": "Sorted IPTV Arabic",
-      "url": "https://snrtworker.kharazbelaid.workers.dev/?id=tamazight.m3u8",
-      "raison": "<urlopen error [Errno -2] Name or service not known>"
     },
     {
       "chaine": "2M Monde (360p)",
