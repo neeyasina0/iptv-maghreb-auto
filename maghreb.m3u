@@ -1,9 +1,9 @@
 #EXTM3U
 # Maghreb V3: 1 flux accessible par chaîne
-# Dernière génération UTC : 2026-11-07T18:29:58+00:00
+# Dernière génération UTC : 2026-11-08T00:41:22+00:00
 # Algérie / Maroc / Tunisie uniquement. Test HTTP ≠ lecture vidéo garantie.
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/hemzaberkane/AlgeriaPicons/main/al24.png" group-title="Algérie",AL24NEWS قناة الجزائر الدّولية
-https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/playlist.m3u8
+#EXTINF:-1 tvg-id="AL24News.dz@SD" tvg-logo="https://i.imgur.com/vyVEXYL.png" group-title="Algérie",AL24 News
+https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_240p/chunks.m3u8
 #EXTINF:-1 tvg-id="AmouYazidTV.dz@SD" tvg-logo="https://i.imgur.com/L8UPGPC.png" group-title="Algérie",Amou Yazid TV (576p)
 http://mkstream.servehttp.com:1940/AmouYazid/ay1/playlist.m3u8
 #EXTINF:-1 tvg-id="CNA.dz@SD" tvg-logo="https://i.imgur.com/Ki3ySUE.png" group-title="Algérie",CNA (Algeria) (360p) [Not 24/7]
@@ -46,5 +46,3 @@ https://webcam.mosaiquefm.net/mosatv/_definst_/studio/playlist.m3u8?DVR
 https://github.com/MassinDV/Youtube-arabic-channels/raw/main/live/ch96.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://www.watania2.tn/sites/default/files/main_logo_watania2_0.png" group-title="Tunisie",الوطنية 2 off
 https://github.com/MassinDV/Youtube-arabic-channels/raw/main/live/ch35.m3u8
-#EXTINF:-1 tvg-id="ZitounaTV.tn" tvg-logo="https://i.imgur.com/LzK8fHv.png" group-title="Tunisie",Zitouna TV (480p) [Not 24/7]
-https://video1.getstreamhosting.com:1936/8320/8320/playlist.m3u8
