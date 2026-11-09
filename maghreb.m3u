@@ -1,13 +1,11 @@
 #EXTM3U
 # Maghreb V3: 1 flux accessible par chaîne
-# Dernière génération UTC : 2026-11-09T07:10:29+00:00
+# Dernière génération UTC : 2026-11-09T12:55:08+00:00
 # Algérie / Maroc / Tunisie uniquement. Test HTTP ≠ lecture vidéo garantie.
 #EXTINF:-1 tvg-id="AL24News.dz@SD" tvg-logo="https://i.imgur.com/vyVEXYL.png" group-title="Algérie",AL24 News
 https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_240p/chunks.m3u8
 #EXTINF:-1 tvg-id="AmouYazidTV.dz@SD" tvg-logo="https://i.imgur.com/L8UPGPC.png" group-title="Algérie",Amou Yazid TV (576p)
 http://mkstream.servehttp.com:1940/AmouYazid/ay1/playlist.m3u8
-#EXTINF:-1 tvg-id="CNA.dz@SD" tvg-logo="https://i.imgur.com/Ki3ySUE.png" group-title="Algérie",CNA (Algeria) (360p) [Not 24/7]
-https://live.creacast.com/cna/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://media.elcinema.com/tvguide/1193_1.png" group-title="Algérie",النهار الأولى
 https://github.com/MassinDV/Youtube-arabic-channels/raw/main/live/ch17.m3u8
 #EXTINF:-1 tvg-id="TV2.dz@SD" tvg-logo="https://i.imgur.com/VEb631f.png" group-title="Algérie",TV2 (Algeria) (1080p)
