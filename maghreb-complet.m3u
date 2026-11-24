@@ -1,6 +1,6 @@
 #EXTM3U
 # Maghreb V3: tous les liens découverts (NON vérifiés inclus)
-# Dernière génération UTC : 2026-11-24T00:52:35+00:00
+# Dernière génération UTC : 2026-11-24T06:59:56+00:00
 # Algérie / Maroc / Tunisie uniquement. Test HTTP ≠ lecture vidéo garantie.
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/hemzaberkane/AlgeriaPicons/main/4kids.png" group-title="Algérie",4 KIDS DZ
 http://149.100.19.147:8000/play/a02t
@@ -98,6 +98,8 @@ https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/dzflix/
 http://217.182.250.232:8081/echo/EchoroukTV/chunks.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Algérie",Tamaghza Monde Tv
 http://live-h1.frontlayer.net/fl385281/live/chunks.m3u8
+#EXTINF:-1 tvg-id="TV2.dz@SD" tvg-logo="" group-title="Algérie",TV2
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/canal_algerie/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="TV2.dz@SD" tvg-logo="https://i.imgur.com/VEb631f.png" group-title="Algérie",TV2 (Algeria) (1080p)
 http://185.9.2.18/chid_347/index.m3u8
 #EXTINF:-1 tvg-id="TV4.dz@SD" tvg-logo="https://i.imgur.com/BZvdjBN.png" group-title="Algérie",TV4 (Algeria) (720p)
@@ -122,6 +124,8 @@ https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/2m_monde/hls_video_ts/2m
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8
 #EXTINF:-1 tvg-id="2MMonde.ma@Plus1" tvg-logo="https://i.imgur.com/MvpntzA.png" group-title="Maroc",2M Monde +1 (1080p)
 https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8
+#EXTINF:-1 tvg-id="2MMonde.ma@HD" tvg-logo="https://i.imgur.com/MvpntzA.png" group-title="Maroc",2M Monde HD
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/2m_monde/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="2MMonde.ma" tvg-logo="https://i.imgur.com/MvpntzA.png" group-title="Maroc",2M Monde (HD)
 https://stream-lb.livemediama.com/2m/hls/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://www.snrtlive.ma/sites/all/themes/snrtlive/images/alaoulax2.png" group-title="Maroc",Al Aoula International+++
